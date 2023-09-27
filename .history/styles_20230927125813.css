@@ -1,0 +1,59 @@
+body {
+    background-color: rgba(25,161,173,255);
+    font-family: 'Kumbh Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+span {
+    color: rgb(149, 148, 150);
+    font-weight: 400;
+}
+
+.grid-container {
+}
+
+.card {
+    display: grid;
+    grid-template-rows: 0.7fr 1.0fr 0.5fr;
+    text-align: center;
+}
+
+.banner {
+    height: 140px;
+}
+
+.banner svg {
+    border-radius: 15px 15px 0 0;
+}
+
+.profile {
+    background-color: white;
+}
+
+.profile img {
+    border-radius: 50%;
+    border: white solid 5px;
+    position: relative;
+    height: 100px;
+    top: -22%;
+}
+
+.profile p{
+    color: rgb(141, 141, 141)
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: white;
+    border-top: 1px solid rgb(233, 233, 233);
+    border-radius: 0 0 15px 15px;
+}

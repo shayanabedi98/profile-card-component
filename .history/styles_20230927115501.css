@@ -1,0 +1,8 @@
+body {
+    background-color: rgba(25,161,173,255);
+    display: flex;
+}
+
+.grid-container {
+    display: grid;
+}

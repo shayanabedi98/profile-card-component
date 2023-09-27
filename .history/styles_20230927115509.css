@@ -1,0 +1,7 @@
+body {
+    background-color: rgba(25,161,173,255);
+}
+
+.grid-container {
+    display: grid;
+}

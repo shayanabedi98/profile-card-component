@@ -1,0 +1,49 @@
+body {
+    background-color: rgba(25,161,173,255);
+    font-family: 'Kumbh Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+span {
+    color: rgb(149, 148, 150);
+    font-weight: 400;
+}
+
+.grid-container {
+    display: grid;
+}
+
+.card {
+    display: grid;
+    grid-template-rows: 1fr 1.2fr 0.7;
+    text-align: center;
+    
+    align-content: center;
+    justify-content: cente
+}
+
+.banner {
+}
+
+.profile {
+    background-color: white;
+}
+
+.profile img {
+    border-radius: 50%;
+    border: white solid 5px;
+}
+
+.profile p{
+    color: rgb(141, 141, 141)
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}

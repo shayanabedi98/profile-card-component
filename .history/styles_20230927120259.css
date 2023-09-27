@@ -1,0 +1,25 @@
+body {
+    background-color: rgba(25,161,173,255);
+}
+
+.grid-container {
+    display: grid;
+}
+
+.card {
+    display: grid;
+    grid-template-rows: 1fr 1.2fr 0.7;
+    text-align: center;
+}
+
+.banner {
+}
+
+.profile {
+
+}
+
+.profile img {
+    border-radius: 50%;
+    border: white solid 5px;
+}
